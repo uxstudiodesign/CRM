@@ -50,5 +50,6 @@
     ".cursorrules": "markdown"
   },
   "jestrunner.codeLensSelector": "**/*.{test,spec,integration-spec}.{js,jsx,ts,tsx}",
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "i18next.i18nPaths": "/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-emails/dist/locales,/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-emails/src/locales,/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-front/src/locales,/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-shared/dist/translations,/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-shared/src/translations,/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-front/src/utils/i18n,/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-server/src/engine/core-modules/i18n,/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-server/dist/src/engine/core-modules/i18n,/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-server/src/engine/core-modules/i18n/locales,/Users/abhayradadiya/Developer/Supasailing/CRM/packages/twenty-server/dist/src/engine/core-modules/i18n/locales"
 }

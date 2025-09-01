@@ -36,7 +36,7 @@ RUN yarn workspaces focus --production twenty-emails twenty-shared twenty-server
 FROM common-deps AS twenty-front-build
 
 ARG REACT_APP_SERVER_BASE_URL
-
+ENV NODE_OPTIONS="--max-old-space-size=4096"
 COPY ./packages/twenty-front /app/packages/twenty-front
 COPY ./packages/twenty-ui /app/packages/twenty-ui
 COPY ./packages/twenty-shared /app/packages/twenty-shared

@@ -48,7 +48,6 @@ services:
       # EMAIL_SMTP_PORT: ${EMAIL_SMTP_PORT:-465}
       # EMAIL_SMTP_USER: ${EMAIL_SMTP_USER:-}
       # EMAIL_SMTP_PASSWORD: ${EMAIL_SMTP_PASSWORD:-}
-
     healthcheck:
       test: curl --fail http://localhost:3000/healthz
       interval: 5s
@@ -101,7 +100,6 @@ services:
       # EMAIL_SMTP_PORT: ${EMAIL_SMTP_PORT:-465}
       # EMAIL_SMTP_USER: ${EMAIL_SMTP_USER:-}
       # EMAIL_SMTP_PASSWORD: ${EMAIL_SMTP_PASSWORD:-}
-
     depends_on:
       server:
         condition: service_healthy
